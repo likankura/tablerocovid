@@ -4,13 +4,13 @@
 
 
 
-Esta herramienta busca solucionar el problema de comparación de magnitud de infecciones entre distintas regiones, mediante la traslación de la variable tiempo a ciertos puntos claves en cada región (primero 100 casos confirmados, 1er deceso, 190 decesos).
+Esta herramienta busca solucionar el problema de comparación de magnitud de infecciones entre distintas regiones, mediante la traslación de la variable tiempo a ciertos puntos claves en cada región (primero 100 casos confirmados, 1er deceso, 190 decesos); se basa en una visualización de los datos.
 
 El tablero se encuentra disponible para consulta en: https://itzamna.org/lagaleria/extra/covid19/tablero/
 
 ### Fuente de datos
 
-
+Los datos se obtienen a través del Centro Europeo para la Prevención y Control de Enfermedades ([ECDC](https://www.ecdc.europa.eu/en/publications-data/download-todays-data-geographic-distribution-covid-19-cases-worldwide)). 
 
 ### Adaptación a otros países
 
