@@ -7,6 +7,8 @@ output:
     favicon: img/LOGO3.png
     orientation: columns
     social: menu
+    navbar:
+      - { icon: "fa-github", href: "https://github.com/likankura/tablerocovid", align: right }
     includes: 
       header: tags.html
 ---
@@ -16,7 +18,7 @@ $('.navbar-brand').wrap('<a href="https://itzamna.org/lagaleria/?page_id=168">')
 </script>
 
 
-```{r}
+```{r, echo=FALSE}
 library(flexdashboard)
 #load('plots.Rdata')
 source('plots1.R')
