@@ -1,0 +1,79 @@
+---
+title: "Seguimiento de Covid-19 (México)"
+output: 
+  flexdashboard::flex_dashboard:
+    css: styles.css
+    logo: img/logo.png
+    favicon: img/LOGO3.png
+    orientation: columns
+    social: menu
+    includes: 
+      header: tags.html
+---
+<script>
+$('.navbar-logo').wrap('<a href="https://itzamna.org">');
+$('.navbar-brand').wrap('<a href="https://itzamna.org/lagaleria/?page_id=168">');
+</script>
+
+
+```{r}
+library(flexdashboard)
+#load('plots.Rdata')
+source('plots1.R')
+```
+
+
+Datos Acumulados
+========================================
+
+Column {data-width=700}
+-------------------------------------
+   
+###
+    
+```{r}
+decsplot
+```   
+    
+### 
+    
+```{r}
+cumplot
+```
+   
+Column {data-width=300}
+-------------------------------------
+   
+### Descripción del tablero
+
+```{r child='desc1.md'}
+```   
+
+Datos Diarios 
+========================================
+
+Column {data-width=700}
+-------------------------------------
+
+### 
+      
+```{r}
+deathsplot
+```   
+
+
+### 
+```{r}
+casesplot
+```
+
+   
+Column {data-width=300}
+-------------------------------------
+   
+### Descripción del tablero
+
+```{r child='desc1.md'}
+```
+
+
